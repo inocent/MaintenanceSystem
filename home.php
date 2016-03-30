@@ -11,7 +11,7 @@
 				Through the system we expect to have a huge number of functionality to perform along with the supervisor.
 				<br>
 				<br><br>
-				<?php include "/slide/slide.html";?>
+				<?php include "slide/slide.html";?>
 			</div>
 			
 			<div class="col-sm-4">
