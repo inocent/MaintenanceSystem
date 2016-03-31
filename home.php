@@ -20,7 +20,7 @@
 					<div class="panel panel-success">
 						<div class="panel-heading">User Login</div>
 						<div class="panel-body">	
-							<form  method="POST" action="login.php">
+							<form  method="POST" action="admin/index.php">
 								<div class="col-xs-12 col-sm-12">
 									
 									<div class="form-group">
@@ -42,14 +42,6 @@
 										<div class="row">
 											<div class="col-xs-12 col-sm-12">
 												<button type="submit" class="btn btn-success" align="right" name="btnlogin">Sign in <span class="glyphicon glyphicon-log-in"></span></button>
-											</div>
-										</div>
-									</div>
-									</br>
-									<div class="form-group">
-										<div class="row">
-											<div class="col-xs-12 col-sm-12">
-												<button type="submit" class="btn btn-success" align="right"name="btnlogin">Not yet an account?&nbsp;&nbsp;Register</button>
 											</div>
 										</div>
 									</div>
