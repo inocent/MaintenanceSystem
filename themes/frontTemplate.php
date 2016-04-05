@@ -54,8 +54,10 @@
 	</head>	
 	<body><style>body {background-color: gray;}</style>
 	<?php include 'home.php';?>
+	<br>
+	<br>
 	<div class="footer">
-	<p align="center">	All rights are reserved as the university property &copy; 2016 </p>
+	<p align="center">	All rights are reserved as the university property &copy; <?php echo date('Y') ?></p>
 		</div>
 </body>
 </html>

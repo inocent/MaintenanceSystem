@@ -1,10 +1,10 @@
 <html>	      
 	<head>
 		<style type="text/css" media="screen">
-			@import url("theme/pmms/sites/all/themes/pmms/styledaf9.css?ne7jek");
+			@import url("themes/pmms/sites/all/themes/pmms/styledaf9.css?ne7jek");
 		</style>
 		<style type="text/css" media="all">
-			@import url("theme/pmms/sites/all/themes/pmms/style.responsivedaf9.css?ne7jek");
+			@import url("themes/pmms/sites/all/themes/pmms/style.responsivedaf9.css?ne7jek");
 		</style>
 		
 		<script type="text/javascript" src="theme/pmms/sites/all/themes/pmms/jquery1cc4.js?v=1.4.4"></script>
@@ -54,6 +54,7 @@
 	</head>	
 	<body><style>body {background-color: gray;}</style>
 	<?php include 'home.php';?>
+<br><br>
 	<div class="footer">
 	<p align="center">	All rights are reserved as the university property &copy; 2016 </p>
 		</div>
