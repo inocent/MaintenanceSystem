@@ -20,11 +20,9 @@
 						foreach ($buildingList as $list) {
 							echo '<tr>';
 							echo '<td width="5%" align="center"></td>';
-							echo '<td width="15%"><input type="checkbox" name="selector[]" id="selector[]" value="'.$list->building_id. '"/>';
-							echo '<td width="40%" >'. $list->name.'</td>';
-							echo '<td width="20%" >'. $list->building_type.'</td>';
-							echo '<td width="10%" ><a href = "index.php?view=edit&id='.$list->building_id.'" ><span class="glyphicon glyphicon-list-alt"> </span>  Edit</a></td>';
-							echo '<td><a href = "index.php?view=view&buildingId='.$list->building_id.'" ><span class="glyphicon glyphicon-list-alt"> </span>  View</a></td>';
+							echo '<td width="40%" >'. $list->name'</td>';
+							echo '<td width="20%" >'. $list->building_type'</td>';
+				
 							echo '</tr>';
 						}
 				     

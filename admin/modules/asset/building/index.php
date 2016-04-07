@@ -9,9 +9,9 @@ require_once("../../../../includes/initialize.php");
 		$content = 'calendar.php';		
 		break;
 		case '2' :
-	    //$title=$_GET['calendar'];	
+	    $title=$_GET['List'];	
 		$content = 'list.php';		
 		break;
 }
-require_once '../../../admin/themes/frontTemplate.php';
+require_once '../../../../themes/frontTemplate.php';
 ?>

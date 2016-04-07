@@ -12,6 +12,12 @@ require_once("../includes/initialize.php");
 	    //$title=$_GET['calendar'];	
 		$content = 'list.php';		
 		break;
+		
+		case 'register':
+		//$title=$_GET['register'];
+		$content = 'register.php';
+		break;
+		
 }
 require_once '../admin/themes/frontTemplate.php';
 ?>
