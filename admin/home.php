@@ -252,7 +252,7 @@
 			?>
 		<div class="tab-pane fade" id="register" style="background:white;height:1000px">
 			<div class="form-group">
-			   <a href="<?php echo WEB_ROOT; ?>admin/index.php?page=register">here</a>
+			 
 			</div>
 		</div>
 	</div>
