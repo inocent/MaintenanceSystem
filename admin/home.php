@@ -10,6 +10,7 @@
 <div class="container">
 	<div class="col-md-3">
 		<!-- Assets Panel -->
+		<div class="panel-body active"><a href="#homepanel" data-toggle="tab">Admin Home</a></div>
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h4 class="panel-title">
@@ -17,15 +18,15 @@
 				</h4>
 			</div>
 			<div id="collapse1" class="panel-collapse collapse">
-				<div class="panel-body"><a href="modules/asset/building/index.php?page=2">Buildings</a></div>
+				<div class="panel-body"><a href="#building" data-toggle="tab">Buildings</a></div>
 				<div class="panel-body"><a href="#register" data-toggle="tab">Registration</a></div>
 				<div class="panel-body"><a href="#calender" data-toggle="tab">Calender</a></div>
-				<div class="panel-body"><a href="#home" data-toggle="tab">Home</a></div>
-				<div class="panel-body">Lab Equipment</div>
-				<div class="panel-body">Furnitures</div>
-				<div class="panel-body">Fixtures</div>
-				<div class="panel-body">Office Equipment</div>
+				<div class="panel-body"><a href="#labEquipment" data-toggle="tab">Lab Equipment</a></div>
+				<div class="panel-body"><a href="#fixture" data-toggle="tab">Fixtures</a></div>
+				<div class="panel-body"><a href="#furniture" data-toggle="tab">Furnitures</a></div>
+				<div class="panel-body"><a href="#officeEquip" data-toggle="tab">Office Equipments</a></div>
 			</div>
+			
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<a data-toggle="collapse" href="#collapse2">Departments</a>
@@ -127,134 +128,64 @@
 		</div>
 	</div>
     <div class="tab-content">
-		<div class="tab-pane fade in active" id="home" style="background:white;height:1000px">
-			<div class="panel-body">
-				<fieldset><legend>Home Please </legend>
-					<form name="form2" method="post" action="addguest.php">
-						<div align="center" style="margin-top:5px">
-							<table style="border-collapse:collapse;">
-								<tr><td>
-									<label>modify to get you home</label>
-									<input class="form-control" name="fname" placeholder="First Name" size="50" required>
-									
-									</td><td style="padding-left:50px">
-									<label>haha home please</label>
-									<input class="form-control" name="lname" placeholder="Last Name" size="50" required>
-								</td>
-								</tr>
-								<tr><td style="padding-top:10px">
-									<label>Occupation</label>
-									<input class="form-control" type="text" name="occupation" placeholder="guest Occupation" size="50" required>
-									
-									</td><td style="padding-left:50px;padding-top:10px">
-									<label>Address</label>
-									<input class="form-control" name="address" placeholder="Address" size="50" required>
-								</td>
-								</tr>
-								<tr><td style="padding-top:10px">
-									<label>Marital Status</label>
-									<select class="form-control" name="marital_status" required>
-										<option selected value="">Select your marital status</option>
-										<option value="Single">Single</option>
-										<option value="Married">Married</option>
-									</select>						
-									</td><td style="padding-left:50px;padding-top:10px">
-									<label>Gender/Sex</label>
-									<select class="form-control" name="sex" required>
-										<option value="" selected>Select your gender</option>
-										<option value="Male">Male</option>
-										<option value="Female">Female</option>
-									</select>
-								</td>
-								</tr>					
-								<tr><td style="padding-top:10px">
-									<label>Date of Birth(mm/dd/yyyy)</label>
-									<input class="form-control"  id='datepickerR' name="age" placeholder="Guest Age" size="50" type="date" required>
-									</td><td style="padding-left:50px;padding-top:10px">
-									<label>Phone Number</label>
-									<input class="form-control" name="phone" placeholder="Phone Number" size="50" onBlur="return validatePhone(this.value);" required>
-								</td>
-								</tr>                    
-								<tr><td style="padding-top:10px">
-									<label>Blood Group</label>
-									<select class="form-control" name="blood" required>
-										<option value="" selected>Select your blood group</option>		
-										<option value="O+">O +ve</option>
-										<option value="O-">O -ve</option>
-										<option value="A+">A +ve</option>
-										<option value="A-">A -ve</option>
-										<option value="B+">B +ve</option>
-										<option value="B-">B -ve</option>
-										<option value="AB+">AB +ve</option>
-										<option value="AB-">AB -ve</option>
-									</select>
-									</td><td style="padding-left:50px;padding-top:10px">
-									<label>Nationality</label>
-									<input class="form-control" name="nation" placeholder="Guest Nationality" size="50" required>
-								</td>
-								</tr>
-								
-								<tr><td style="padding-top:10px">
-									<label>Username</label>
-									<input class="form-control" name="user" placeholder="username" size="50" required>
-									
-								</td>
-								<td  style="padding-left:50px;padding-top:10px">
-									<label>Region</label>
-									<input class="form-control" name="region" placeholder="Guest Region" size="50" required>
-								</td>
-								</tr>
-								
-								<tr><td style="padding-top:10px">
-									<label>Password</label>
-									<input class="form-control" type="password" name="rpass" placeholder="Password" onBlur="return validateP();" size="50" required>
-									
-									</td><td style="padding-left:50px;padding-top:10px">
-									<label>Repeat Password</label>
-									<input class="form-control" type="password" name="pass" onBlur="return validateP();"placeholder="password repeat" size="50" required>
-								</td>
-								</tr>
-								<tr><td style="padding-top:20px" colspan="2"><center><input type="button" onclick="validate();" class="btn btn-default" value="Submit" >&nbsp;&nbsp;&nbsp;&nbsp;<button type="reset" class="btn btn-default">Reset</button></center></td></tr>					
-							</table>
-						</div>
-					</form>
-				</fieldset>
-			</div>
-		</div>
-		
-		<div class="tab-pane fade" id="calender" style="background:white;height:1000px">
-			<div class="panel-body">
-				<fieldset><legend>Calender</legend>
-					<form name="form2" method="post" action="addguest.php">
-						<div align="center" style="margin-top:5px">
-							<table style="border-collapse:collapse;">
-								<tr><td>
-									<label>Elipokea</label>
-									<input class="form-control" name="fname" placeholder="First Name" size="50" required>
-									<a href="forms/register.php">click here</a>
-									</td><td style="padding-left:50px">
-									<label>Mosses</label>
-									<input class="form-control" name="lname" placeholder="Last Name" size="50" required>
-								</td>
-								</tr>
-								
-								<tr><td style="padding-top:20px" colspan="2"><center><input type="button" onclick="validate();" class="btn btn-default" value="Submit" >&nbsp;&nbsp;&nbsp;&nbsp;<button type="reset" class="btn btn-default">Reset</button></center></td></tr>					
-							</table>
-						</div>
-					</form>
-				</fieldset>
-			</div>
-		</div>
-		
-
-		    <?php
-			require_once('forms/register.php');
-			?>
-		<div class="tab-pane fade" id="register" style="background:white;height:1000px">
+				
+    <div class="tab-pane fade in active" id="homepanel" style="background:white;height:1000px">
+		<div class="panel-body">
 			<div class="form-group">
-			   <a href="<?php echo WEB_ROOT; ?>admin/index.php?page=register">here</a>
+			   <?php require_once('forms/assets/homepanel.php'); ?>
 			</div>
 		</div>
+		</div>		
+	    <div class="tab-pane fade" id="calender" style="background:white;height:1000px">
+		<div class="panel-body">
+			<div class="form-group">
+			   <?php require_once('forms/assets/calender.php'); ?>
+			</div>
+		</div>
+		</div>		    
+		<div class="tab-pane fade" id="register" style="background:white;height:1000px">
+		<div class="panel-body">
+			<div class="form-group">
+			   <?php require_once('forms/assets/register.php'); ?>
+			</div>
+		</div>
+		</div>
+		<div class="tab-pane fade" id="building" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/assets/building.php'); ?>
+			</div>
+		</div>
+		</div>
+		<div class="tab-pane fade" id="labEquipment" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/assets/labEquipment.php'); ?>
+			</div>
+		</div>
+		</div>
+		<div class="tab-pane fade" id="officeEquip" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/assets/officeEquip.php'); ?>
+			</div>
+		</div>
+		</div>
+		<div class="tab-pane fade" id="fixture" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/assets/fixture.php'); ?>
+			</div>
+		</div>
+		</div>	
+		<div class="tab-pane fade" id="furniture" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/assets/furniture.php'); ?>
+			</div>
+		</div>
+		</div>
+		
 	</div>
 </div>
 </body>
