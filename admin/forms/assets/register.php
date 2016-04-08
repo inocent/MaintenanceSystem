@@ -2,7 +2,7 @@
 	<form name="form2" method="post" action="building.php">
 	<br><br>
 <fieldset>
-	<legend> Register </legend>	
+	<legend> Registration </legend>	
 </fieldset>				
 </form>
 </div>

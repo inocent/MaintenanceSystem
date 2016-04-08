@@ -1,8 +1,7 @@
-<form name="form2" method="post" action="addguest.php">
-	
-	<fieldset><legend>Home Panel </legend>
-					<form name="form2" method="post" action="addguest.php">
-						
-					</form>
-				</fieldset>
+<div class="container">
+	<form name="form2" method="post" action="building.php">
+<fieldset>
+	<legend> DASHBOARD </legend>	
+</fieldset>				
 </form>
+</div>

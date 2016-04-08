@@ -142,8 +142,9 @@
 			   <?php require_once('forms/assets/calender.php'); ?>
 			</div>
 		</div>
-		</div>		    
-		<div class="tab-pane fade" id="register" style="background:white;height:1000px">
+		</div>	
+	    
+		 <div class="tab-pane fade" id="register" style="background:white;height:1000px">
 		<div class="panel-body">
 			<div class="form-group">
 			   <?php require_once('forms/assets/register.php'); ?>
