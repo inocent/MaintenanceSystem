@@ -13,7 +13,7 @@
 	//(\ for windows, / for Unix)
 	defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 	
-	defined('SITE_ROOT') ? null : define ('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'].DS.'MaintenanceSystem');
+	defined('SITE_ROOT') ? null : define ('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'].DS.'shio');
 	
 	defined('LIB_PATH') ? null : define ('LIB_PATH',SITE_ROOT.DS.'includes');
 	
@@ -23,6 +23,7 @@
 	require_once(LIB_PATH.DS."functions.php");
 	//later here where we are going to put our class session
 	require_once(LIB_PATH.DS."session.php");
+	require_once(LIB_PATH.DS."member.php");
 
 	
 	//Load Core objects

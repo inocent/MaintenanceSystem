@@ -1,12 +1,5 @@
 <html>	      
-	<head>
-		<style type="text/css" media="screen">
-			@import url("theme/pmms/sites/all/themes/pmms/styledaf9.css?ne7jek");
-		</style>
-		<style type="text/css" media="all">
-			@import url("theme/pmms/sites/all/themes/pmms/style.responsivedaf9.css?ne7jek");
-		</style>
-		
+	<head>	
 		<script type="text/javascript" src="theme/pmms/sites/all/themes/pmms/jquery1cc4.js?v=1.4.4"></script>
 		<script type="text/javascript" src="theme/pmms/misc/jquery.once7839.js?v=1.2"></script>
 		<script type="text/javascript" src="theme/pmms/misc/drupaldaf9.js?ne7jek"></script>
@@ -50,16 +43,24 @@
 			} );
 			
 		</script>
-		<?php include 'banner.php';?>
-	</head>	
-	<body><style>body {background-color: gray;}</style>
-	<?php include 'home.php';?>
-	<br>
-	<br>
-	<div class="footer">
-	<p align="center">	All rights are reserved as the university property &copy; <?php echo date('Y') ?></p>
+		<?php include 'banner.php'; 
+		      include 'navbar.php';
+			?>
+		
+		<div class="panel panel-primary">
+			         <?php check_message(); ?>
 		</div>
-</body>
+	</head>	
+	<body>
+		<div class="container">
+			<?php require_once $content; ?>
+		</div>
+		<br>
+		<br>
+		<div class="footer">
+			<p align="center">	All rights are reserved as the university property &copy; <?php echo date('Y') ?></p>
+		</div>
+	</body>
 </html>
 
 

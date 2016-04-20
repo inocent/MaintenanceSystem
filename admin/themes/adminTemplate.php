@@ -43,15 +43,21 @@
 			} );
 			
 		</script>
-		<?php include 'banner.php'; 
-			 include 'navbar.php';
-			 check_message();
+		<?php include ("banner.php"); 
+			include ("navbar.php");
+			check_message();
 		?>
 	</head>	
 	<body>
- <!-- something-->
- <br>
- <br>
+		
+		<div class="col-lg-12 col-md-8 col-sm-12">
+			<div class="panel panel-primary">
+				<br>
+				<?php require_once $content; ?>
+			</div>
+		</div>
+		<br>
+		<br>
 	</body>
 </html>
 

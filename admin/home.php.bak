@@ -132,14 +132,14 @@
     <div class="tab-pane fade in active" id="homepanel" style="background:white;height:1000px">
 		<div class="panel-body">
 			<div class="form-group">
-			   <?php require_once('forms/homepanel.php'); ?>
+			   <?php require_once('forms/assets/homepanel.php'); ?>
 			</div>
 		</div>
 		</div>		
 	    <div class="tab-pane fade" id="calender" style="background:white;height:1000px">
 		<div class="panel-body">
 			<div class="form-group">
-			   <?php require_once('forms/calender.php'); ?>
+			   <?php require_once('forms/assets/calender.php'); ?>
 			</div>
 		</div>
 		</div>	
@@ -147,42 +147,42 @@
 		 <div class="tab-pane fade" id="register" style="background:white;height:1000px">
 		<div class="panel-body">
 			<div class="form-group">
-			   <?php require_once('forms/register.php'); ?>
+			   <?php require_once('forms/assets/register.php'); ?>
 			</div>
 		</div>
 		</div>
 		<div class="tab-pane fade" id="building" style="background:white;height:1000px">
 			<div class="panel-body">
 				<div class="form-group">
-			   <?php require_once('forms/building/building.php'); ?>
+			   <?php require_once('forms/assets/building/building.php'); ?>
 			</div>
 		</div>
 		</div>
 		<div class="tab-pane fade" id="labEquipment" style="background:white;height:1000px">
 			<div class="panel-body">
 				<div class="form-group">
-			   <?php require_once('forms/labEquipment.php'); ?>
+			   <?php require_once('forms/assets/labEquipment.php'); ?>
 			</div>
 		</div>
 		</div>
 		<div class="tab-pane fade" id="officeEquip" style="background:white;height:1000px">
 			<div class="panel-body">
 				<div class="form-group">
-			   <?php require_once('forms/officeEquip.php'); ?>
+			   <?php require_once('forms/assets/officeEquip.php'); ?>
 			</div>
 		</div>
 		</div>
 		<div class="tab-pane fade" id="fixture" style="background:white;height:1000px">
 			<div class="panel-body">
 				<div class="form-group">
-			   <?php require_once('forms/fixture.php'); ?>
+			   <?php require_once('forms/assets/fixture.php'); ?>
 			</div>
 		</div>
 		</div>	
 		<div class="tab-pane fade" id="furniture" style="background:white;height:1000px">
 			<div class="panel-body">
 				<div class="form-group">
-			   <?php require_once('forms/furniture.php'); ?>
+			   <?php require_once('forms/assets/furniture.php'); ?>
 			</div>
 		</div>
 		</div>

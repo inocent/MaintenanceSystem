@@ -43,15 +43,23 @@
 			} );
 			
 		</script>
-		<?php include 'banner.php'; 
-			 include 'navbar.php';
-			 check_message();
-		?>
+		<?php require_once 'banner.php'; 
+		      require_once 'navbar.php';
+			?>
+		
+		<div class="panel panel-primary">
+			         <?php check_message(); ?>
+		</div>
 	</head>	
 	<body>
- <!-- something-->
- <br>
- <br>
+		<div class="container">
+			<?php require_once $content; ?>
+		</div>
+		<br>
+		<br>
+		<div class="footer">
+			<p align="center">	All rights are reserved as the university property &copy; <?php echo date('Y') ?></p>
+		</div>
 	</body>
 </html>
 
