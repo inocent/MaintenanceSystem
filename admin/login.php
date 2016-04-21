@@ -23,7 +23,7 @@
 		//check if the email and password is equal to nothing or null then it will show message box
 		if ($uname == '' OR $upass == '') {
 			?>    <script type="text/javascript">
-			alert("Invalid Username and Password!");
+			alert(" Username or Password! can not be Empty");
 		</script>
 		<?php
 			

@@ -1,9 +1,9 @@
-<div class="container">
+
 	<div class="col-lg-4 col-md-8 col-sm-4">
 	</div>
 	<div class="col-lg-8 col-md-8 col-sm-8">
 <div class="wells">
-	<h3 align="left">List of building</h3> 					
+	<h3 align="left">List</h3> 					
 		<table class="table table-striped" cellspacing="0">
 			<thead>
 				<tr>
@@ -11,6 +11,7 @@
 					<th width="5%" align="left"><input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">Select All</th>
 					<th>building name</th>
 					<th>Type</th>
+					<th>Total Rooms</th>
 					<th>Total Rooms</th>
 				</tr>	
 			</thead>
@@ -24,6 +25,7 @@
 							echo '<td width="40%" >'. $list->name.'</td>';
 							echo '<td width="20%" >'. $list->building_type.'</td>';
 							echo '<td width="20%" >'. $list->total_rooms.'</td>';
+							echo '<td width="20%" >'. $list->total_rooms.'</td>';
 							echo '</tr>';
 						}
 				?>
@@ -31,5 +33,3 @@
 		</table>
 	</form>
 </div><!--End of well-->
-</div>
-</div><!--End of container-->

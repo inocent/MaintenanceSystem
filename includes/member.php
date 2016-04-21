@@ -78,7 +78,7 @@
 		
 		static function AuthenticateAdmin($email="", $h_upass=""){
 			global $mydb;
-			$mydb->setQuery("SELECT systemuser_password , user_name FROM `systemuser` WHERE `user_name`='" . $email . "' and `systemuser_password`='" . $h_upass ."' LIMIT 1");
+			$mydb->setQuery("SELECT systemuser_password , user_name ,  user_first_name , user_middle_name FROM `systemuser` WHERE `user_name`='" . $email . "' and `systemuser_password`='" . $h_upass ."' LIMIT 1");
 			
 			$cur = $mydb->executeQuery();
 			$row_count = $mydb->num_rows($cur);//get the number of count
@@ -86,6 +86,8 @@
 				$found_user = $mydb->loadSingleResult();
 				$_SESSION['ACCOUNT_USERNAME']= $found_user->user_name;
 				$_SESSION['ACCOUNT_PASSWORD']= $found_user->systemuser_password;
+				$_SESSION['ACCOUNT_FNAME']= $found_user->user_first_name;
+				$_SESSION['ACCOUNT_MNAME']= $found_user->user_middle_name;
 				return true;
 				}else{
 				return false;
@@ -206,8 +208,8 @@
 		$sql .= ") VALUES ('";
 		$sql .= join("', '", array_values($attributes));
 		$sql .= "')";
-		echo $mydb->setQuery($sql);
-		
+		//echo $mydb->setQuery($sql);
+		//print_r($attributes);
 		if($mydb->executeQuery()) {
 	    $this->id = $mydb->insert_id();
 	    return true;

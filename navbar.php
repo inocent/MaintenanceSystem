@@ -1,30 +1,25 @@
-<link rel="stylesheet" href="styles.css">
-<div id='cssmenu'>
-			<ul>
-				<li><a href='#'><span>Home</span></a></li>
-				<li class='active has-sub'><a href='#'><span>Assets</span></a>
-					<ul>
-						<li class='has-sub'><a href='#'><span>Categories</span></a>
-							<ul>
-								<li><a href='#'><span>Electrical</span></a></li>
-								<li class='last'><a href='#'><span>Wooden</span></a></li>
-								<li class='last'><a href='#'><span>Steel</span></a></li>
-								<li class='last'><a href='#'><span>Plastic</span></a></li>
-							</ul>
-						</li>
-						<li class='has-sub'><a href='#'><span>Product 2</span></a>
-							<ul>
-								<li class='active has-sub'><a href='#'><span>Products</span></a>
-									<ul>
-										<li class='has-sub'><a href='#'><span>Product 1</span></a></li>
-										<li class='has-sub'><a href='#'><span>Product 2</span></a></li>
-									</ul>
-								</li>
-								<li class='last'><a href='#'><span>Sub Product</span></a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li class="login" align="right"><a href='admin/login.php'><span>Login</span></a></li>
-			</ul>
-		</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">PMMS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.php?page=2"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="admin/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</body>
+</html>

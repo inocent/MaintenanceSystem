@@ -115,7 +115,7 @@ class Database {
 		if( $this->real_escape_string_exists ) { // PHP v4.3.0 or higher
 			// undo any magic quote effects so mysqli_real_escape_string can do the work
 			if( $this->magic_quotes_active ) { $value = stripslashes( $value ); }
-			$value = mysqli_real_escape_string( $value );
+			$value = mysqli_real_escape_string( $this->conn , $value );
 		} else { // before PHP v4.3.0
 			// if magic quotes aren't already on then add slashes manually
 			if( !$this->magic_quotes_active ) { $value = addslashes( $value ); }

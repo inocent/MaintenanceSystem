@@ -1,5 +1,5 @@
 <?php 
-require_once ("../../../includes/initialize.php");
+require_once ("../includes/initialize.php");
 $action = (isset($_GET['action']) && $_GET['action'] != '') ? $_GET['action'] : '';
 
 switch ($action) {
@@ -33,17 +33,31 @@ switch ($action) {
 	
 function doInsert(){
 		if (isset($_POST['save'])){
-$AssetName  = $_POST['name'];
-$type = $_POST['type'];
-$total = $_POST['room'];
+$firstName  = $_POST['firstname'];
+$lastName  = $_POST['lastname'];
+$middleName  = $_POST['middlename'];
+$username  = $_POST['username'];
+$gender  = $_POST['gender'];
+$department  = $_POST['department'];
+$title  = $_POST['title'];
+$password = $_POST['password'];
 
+echo $firstName ;
+echo $middleName ;
 
-$building = new Building();
-$building->building_type = $type ;
-$building->total_rooms = $total;
-$building->name	= $AssetName;
+$user = new User();
+$user->user_first_name = $firstName;
+$user->user_middle_name = $middleName;
+$user->user_last_name = $lastName;
+$user->user_gender = $gender;
+$user->user_depart_id = $department;
+$user->user_type= $title;
+$user->user_password = $password;
+  $user->create(); 
+	message('New User addedd successfully!', "success");
+	redirect('index.php');
 }
-
+/*
 if ($AssetName  == "") {
 	message('Asset Name is required!', "error");
 	redirect ('index.php');
@@ -53,10 +67,8 @@ if ($AssetName  == "") {
 }elseif ($total == "") {
 	message('Total Rooms is required!', "error");
 	redirect ('index.php');
-}
-   $building->create(); 
-	message('New building addedd successfully!', "success");
-	redirect('index.php?view=list');	
+}*/
+ 	
 }
 
 

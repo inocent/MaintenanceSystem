@@ -1,15 +1,8 @@
 <?php
-/**
-* Description:	This is a class for department.
-* Author:		Joken Villanueva
-* Date Created:	June 8, 2013
-* Revised By:	Ally Bitebo
-* Date edited: February, 07, 2015
-*/
 require_once(LIB_PATH.DS.'database.php');
 class Systemuser{
 	
-	protected static $tbl_name = "systemusers";
+	protected static $tbl_name = "systemuser";
 	function db_fields(){
 		global $mydb;
 		return $mydb->getFieldsOnOneTable(self::$tbl_name);
@@ -32,24 +25,6 @@ class Systemuser{
 			return $cur;
 	}
 	
-
-/*--------------------------------for search functionlity ----------------------------------
-	function listOfConsultant(){
-			global $mydb;
-			$mydb->setQuery("SELECT * 
-							FROM  ".self::$tbl_name);
-			$cur = $mydb->loadResultList();
-			return $cur;
-	}
---------------------------------------------------------------------------------------------*/
- 
-/*
-	function listOfConsultant(){
-		global $mydb;
-			$mydb->setQuery("SELECT consultant_id,firstname,lastname,user_account_id FROM `consultants`");
-			$cur = $mydb->loadResultList();
-			return $cur;
-*/
 	function listOfDepartmentSystemuser($department_id){
 			global $mydb;
 			$mydb->setQuery("SELECT * 
