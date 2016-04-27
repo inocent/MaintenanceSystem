@@ -20,7 +20,6 @@
 			</div>
 			<div id="collapse1" class="panel-collapse collapse">
 				<div class="panel-body"><a href="#building" data-toggle="tab">Buildings</a></div>
-				<div class="panel-body"><a href="#register" data-toggle="tab">Registration</a></div>
 				<div class="panel-body"><a href="#calender" data-toggle="tab">Calender</a></div>
 				<div class="panel-body"><a href="#labEquipment" data-toggle="tab">Lab Equipment</a></div>
 				<div class="panel-body"><a href="#fixture" data-toggle="tab">Fixtures</a></div>
