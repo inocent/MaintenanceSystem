@@ -14,7 +14,7 @@
 				<br><br>
 				<?php include "slide/slide.html";?>
 			</div>
-			
+			<!--
 			<div class="col-sm-4">
 				<div class="sidebar-nav">
 					
@@ -41,6 +41,8 @@
 						<ul>
 						</div>
 					</div>
+	-->
+
 	</div>
 </div>
 </div>

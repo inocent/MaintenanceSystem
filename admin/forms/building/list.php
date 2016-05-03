@@ -12,7 +12,6 @@
 					<th>building name</th>
 					<th>Type</th>
 					<th>Total Rooms</th>
-					<th>Total Rooms</th>
 				</tr>	
 			</thead>
 			<tbody>
@@ -24,7 +23,6 @@
 							echo '<td width="15%"><input type="checkbox" name="selector[]" id="selector[]" value="'.$list->building_id.'"/>';
 							echo '<td width="40%" >'. $list->name.'</td>';
 							echo '<td width="20%" >'. $list->building_type.'</td>';
-							echo '<td width="20%" >'. $list->total_rooms.'</td>';
 							echo '<td width="20%" >'. $list->total_rooms.'</td>';
 							echo '</tr>';
 						}

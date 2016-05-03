@@ -46,19 +46,17 @@ $building->name	= $AssetName;
 
 if ($AssetName  == "") {
 	message('Asset Name is required!', "error");
-	redirect ('index.php');
+	redirect ('index.php?page=add');
 }elseif ($type == "") {
 	message('Asset Type is required!', "error");
-	redirect ('index.php');
+	redirect ('index.php?page=add');
 }elseif ($total == "") {
 	message('Total Rooms is required!', "error");
-	redirect ('index.php');
+	redirect ('index.php?page=add');
 }
    $building->create(); 
 	message('New building addedd successfully!', "success");
 	redirect('index.php?view=list');	
 }
-
-
 
 ?>

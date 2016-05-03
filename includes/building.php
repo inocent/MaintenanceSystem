@@ -1,11 +1,5 @@
 <?php
-/**
-* Description:	This is a class for building.
-* Author:		Joken Villanueva
-* Date Created:	June 8, 2013
-* Revised By:	Ally Bitebo
-* Date edited: February, 07, 2015
-*/
+
 require_once(LIB_PATH.DS.'database.php');
 class Building{
 	

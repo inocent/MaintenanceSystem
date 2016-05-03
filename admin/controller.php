@@ -53,6 +53,7 @@ $user->user_gender = $gender;
 $user->user_depart_id = $department;
 $user->user_type= $title;
 $user->user_password = $password;
+print_r($user);
   $user->create(); 
 	message('New User addedd successfully!', "success");
 	redirect('index.php');
@@ -70,7 +71,4 @@ if ($AssetName  == "") {
 }*/
  	
 }
-
-
-
 ?>
