@@ -280,7 +280,7 @@ CREATE TABLE IF NOT EXISTS `systemuser` (
 --
 
 INSERT INTO `systemuser` (`systemuser_id`, `user_first_name`, `user_middle_name`, `user_last_name`, `user_name`, `user_gender`, `systemuser_depart_id`, `systemuser_password`, `systemuser_type`, `created_at`, `updated_at`) VALUES
-(2, 'jose', 'fredrick', 'henry', 'admin', 'Male', 1, '123', 'admin', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(2, 'jose', 'fredrick', 'henry', 'henry', 'Male', 1, '123', 'admin', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (3, 'bloo', 'bloo', 'bloo', 'bloo', 'Female', 1, 'bloo', 'staff', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
