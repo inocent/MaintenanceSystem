@@ -12,7 +12,6 @@ switch ($view) {
 		$content    = 'building.php';		
 		break;
 
-
 	default :
 		$content    = 'list.php';
 				

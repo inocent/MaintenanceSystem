@@ -1,9 +1,7 @@
 
-
-<form class="form-horizontal well span4" action="forms/building/controller.php?action=add" method="POST">
 <div class="container">
 	<fieldset>
-		<legend>Add New Asset</legend>
+		<legend>Building Informtions</legend>
 		<p>
 			<div class="form-group">
 				<div class="col-md-8">
@@ -13,6 +11,7 @@
 					</div>
 				</div>
 			</div>
+			<br><br>
 				<div class="form-group">
 				<div class="col-md-8">
 					<label class="col-md-4 control-label" for="type">Asset Type</label>
@@ -20,7 +19,7 @@
 						<input class="form-control input-sm" id="type" name="type" placeholder="Asset Type" type="text" value="">
 					</div>
 				</div>
-			</div>
+			</div><br>
 			<div class="form-group">
 				<div class="col-md-8">
 					<label class="col-md-4 control-label" for="manufacturername">rooms</label>
@@ -29,7 +28,7 @@
 							</div>
 				</div>
 			</div>
-						
+						<br><br>
 						<div class="form-group">
 							<div class="col-md-8">
 								<label class="col-md-4 control-label" for= "idno"></label>
@@ -39,5 +38,3 @@
 							</div>
 						</div>  
 					</fieldset> 
-				</form>
-			</div> <!--End of container-->
