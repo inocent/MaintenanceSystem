@@ -24,10 +24,10 @@
 	//later here where we are going to put our class session
 	require_once(LIB_PATH.DS."session.php");
 	require_once(LIB_PATH.DS."member.php");
-
+require_once(LIB_PATH.DS."systemuser.php");
 	
 	//Load Core objects
-	//require_once(LIB_PATH.DS."database.php");
+	require_once(LIB_PATH.DS."database.php");
 	
 	//load database-related classes
 	

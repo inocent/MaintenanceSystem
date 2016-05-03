@@ -13,10 +13,9 @@
         <li class="active"><a href="../index.php">Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-	    <li><?php 
-			
-			echo "mama"; ?></li>
-        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+	    <li><a href="#"><?php echo "Loged in as : ";?> </a></li>
+	    <li><a href="#"><?php echo  $_SESSION['ACCOUNT_FNAME'] . "   " . $_SESSION['ACCOUNT_MNAME']; ?></a></li>
+        <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
       </ul>
     </div>
   </div>

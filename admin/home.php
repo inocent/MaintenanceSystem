@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>pmms</title>
-		</head>
-		
-<body style="overflow-y:auto hidden">
-	<nav class="navbar navbar-default navbar-fixed-left" role="navigation" style="margin-left: 0">  
-<div class="container">
-	<div class="col-md-3">
+
+	<div class="col-md-2">
 		<!-- Assets Panel
 		<div class="panel-body active"><a href="#homepanel" data-toggle="tab">Admin Home</a></div>  -->
 		<div class="panel panel-info">
@@ -19,13 +9,8 @@
 				</h4>
 			</div>
 			<div id="collapse1" class="panel-collapse collapse">
-				<div class="panel-body"><a href="#building" data-toggle="tab">Buildings</a></div>
-				<div class="panel-body"><a href="#register" data-toggle="tab">Registration</a></div>
-				<div class="panel-body"><a href="#calender" data-toggle="tab">Calender</a></div>
-				<div class="panel-body"><a href="#labEquipment" data-toggle="tab">Lab Equipment</a></div>
-				<div class="panel-body"><a href="#fixture" data-toggle="tab">Fixtures</a></div>
-				<div class="panel-body"><a href="#furniture" data-toggle="tab">Furnitures</a></div>
-				<div class="panel-body"><a href="#officeEquip" data-toggle="tab">Office Equipments</a></div>
+				<div class="panel-body"><a href="#building" data-toggle="tab">Calender</a></div>
+				<div class="panel-body"><a href="#calender" data-toggle="tab">Buildings</a></div>
 			</div>
 			
 			<div class="panel-heading">
@@ -67,15 +52,6 @@
 				</h4>
 			</div>
 			
-			<div class="panel-heading">
-				<h4 class="panel-title">
-					<a data-toggle="collapse" href="#collapse5">Preventive Maintenance</a>
-				</h4>
-			</div>
-			<div id="collapse5" class="panel-collapse collapse">
-				<div class="panel-body">Panel Body</div>
-				
-			</div>
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<a data-toggle="collapse" href="#collapse6">Requests Module</a>
@@ -134,8 +110,8 @@
 			</div>
 		</div>
 	</div>
-    <div class="tab-content">
-				
+	
+    <div class="tab-content">		
     <div class="tab-pane fade in active" id="homepanel" style="background:white;height:1000px">
 		<div class="panel-body">
 			<div class="form-group">
@@ -145,9 +121,7 @@
 		</div>		
 	    <div class="tab-pane fade" id="calender" style="background:white;height:1000px">
 		<div class="panel-body">
-			<div class="form-group">
 			   <?php require_once('forms/calender.php'); ?>
-			</div>
 		</div>
 		</div>	
 	    
@@ -195,6 +169,3 @@
 		</div>
 		
 	</div>
-</div>
-</body>
-</html>

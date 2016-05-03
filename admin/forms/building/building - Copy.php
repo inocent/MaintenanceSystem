@@ -3,7 +3,7 @@
 <form class="form-horizontal well span4" action="forms/building/controller.php?action=add" method="POST">
 <div class="container">
 	<fieldset>
-		<legend>Building Informtions</legend>
+		<legend>Add New Asset</legend>
 		<p>
 			<div class="form-group">
 				<div class="col-md-8">
