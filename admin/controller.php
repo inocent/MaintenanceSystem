@@ -30,7 +30,6 @@ switch ($action) {
 	}
 
 
-	
 function doInsert(){
 		if (isset($_POST['save'])){
 $firstName  = $_POST['firstname'];
@@ -54,9 +53,7 @@ $user->user_depart_id = $department;
 $user->user_type= $title;
 $user->user_password = $password;
 print_r($user);
-  $user->create(); 
-	message('New User addedd successfully!', "success");
-	redirect('index.php');
+  
 }
 /*
 if ($AssetName  == "") {
@@ -70,5 +67,8 @@ if ($AssetName  == "") {
 	redirect ('index.php');
 }*/
  	
+	$user->create(); 
+	message('Successfully Registration!', "success");
+	redirect('index.php');
 }
 ?>

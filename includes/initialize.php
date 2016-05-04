@@ -3,7 +3,7 @@
 		* Description:	This includes for basic and core configurations.
 		* Author:		Ally Bitebo
 		* Date Created:	February 07, 2015
-		* Revised By:		
+		* Revised By:	Shio Elipokea	
 	*/
 	
 	//define the core paths
@@ -24,7 +24,7 @@
 	//later here where we are going to put our class session
 	require_once(LIB_PATH.DS."session.php");
 	require_once(LIB_PATH.DS."member.php");
-require_once(LIB_PATH.DS."systemuser.php");
+    require_once(LIB_PATH.DS."systemuser.php");
 	
 	//Load Core objects
 	require_once(LIB_PATH.DS."database.php");

@@ -1,6 +1,7 @@
 <?php
 require_once("../includes/initialize.php");
 	$content='home.php';
+	 $title=$_GET['Home'];
 	$view = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
 	switch ($view) {
 	

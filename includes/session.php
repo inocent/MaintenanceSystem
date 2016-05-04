@@ -19,7 +19,8 @@
 			<script type="text/javascript">
 				window.location = "home.php";
 			</script>
-		<?php}
+		<?php
+	}
 			
 	}
 	function studlogged_in() {

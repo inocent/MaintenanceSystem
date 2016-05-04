@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
 	    <li><a class="navbar-brand" href="http://www.udsm.ac.tz">University Home</a></li>
-        <li class="active"><a href="#">Pmms Home</a></li>
+        <li class="active"><a href="#">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php?page=2"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>

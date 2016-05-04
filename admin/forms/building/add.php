@@ -1,4 +1,4 @@
-
+<form name="form2" method="post" action="forms/building/controller.php?action=add>
 <div class="container">
 	<fieldset>
 		<legend>Building Informtions</legend>
@@ -38,3 +38,4 @@
 							</div>
 						</div>  
 					</fieldset> 
+					</form>

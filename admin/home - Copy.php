@@ -1,11 +1,8 @@
 
-</head>
-<body>
-
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <div class="panel panel-info">
+	<div class="col-md-2">
+		<!-- Assets Panel
+		<div class="panel-body active"><a href="#homepanel" data-toggle="tab">Admin Home</a></div>  -->
+		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<a data-toggle="collapse" href="#collapse1">Assets</a>
@@ -14,7 +11,7 @@
 			<div id="collapse1" class="panel-collapse collapse">
 				<div class="panel-body"><a href="#building" data-toggle="tab">Buildings</a></div>
 				<div class="panel-body"><a href="#calender" data-toggle="tab">Calender</a></div>
-				 <div class="panel-body"><a href="#fixture" data-toggle="tab">Fixtures</a></div>
+				<div class="panel-body"><a href="#fixture" data-toggle="tab">Fixtures</a></div>
 			</div>
 			
 			<div class="panel-heading">
@@ -24,6 +21,10 @@
 			</div>
 			<div id="collapse2" class="panel-collapse collapse">
 				<div class="panel-body">Panel Body</div>
+				<div class="panel-body">Panel Body</div>
+				<div class="panel-body">Panel Body</div>
+				<div class="panel-body">Panel Body</div>
+				
 			</div>
 			<div class="panel-heading">
 				<h4 class="panel-title">
@@ -32,6 +33,10 @@
 			</div>
 			<div id="collapse3" class="panel-collapse collapse">
 				<div class="panel-body">Panel Body</div>
+				<div class="panel-body">Panel Body</div>
+				<div class="panel-body">Panel Body</div>
+				<div class="panel-body">Panel Body</div>
+				
 			</div>
 			<div class="panel-heading">
 				<h4 class="panel-title">
@@ -105,10 +110,9 @@
 				
 			</div>
 		</div>
-    </div>
-
-    <div class="col-sm-10">
-          <div class="tab-content">		
+	</div>
+	
+    <div class="tab-content">		
     <div class="tab-pane fade in active" id="homepanel" style="background:white;height:1000px">
 		<div class="panel-body">
 			<div class="form-group">
@@ -129,6 +133,4 @@
 			</div>
 		</div>
 		</div>	
-	</div>
-  </div>
-</div>
+	</div></div>

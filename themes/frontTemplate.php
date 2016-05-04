@@ -45,11 +45,8 @@
 		</script>
 		<?php include 'banner.php'; 
 		      include 'navbar.php';
-			?>
-		
-		<div class="panel panel-primary">
-			         <?php check_message(); ?>
-		</div>
+			  check_message(); 
+			?>      
 	</head>	
 	<body>
 			<?php require_once $content; ?>

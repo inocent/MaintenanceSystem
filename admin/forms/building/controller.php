@@ -56,7 +56,7 @@ if ($AssetName  == "") {
 }
    $building->create(); 
 	message('New building addedd successfully!', "success");
-	redirect('admin');	
+	redirect('index.php?view=list');	
 }
 
 ?>
