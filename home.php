@@ -8,13 +8,18 @@
 			<br>
 				<br><br>
 				
-				&nbsp;&nbsp;&nbsp;PMMS is the computerized system that offer the management of the assets and tracking its maintenace.
-				Through the system we expect to have a huge number of functionality to perform along with the supervisor.
-				<br>PMMS is the computerized system that offer the management of the assets and tracking its maintenace.
-				Through the system we expect to have a huge number of functionality to perform along with the supervisor.&nbsp;&nbsp;&nbsp;&nbsp;
-				<br>PMMS is the computerized system that offer the management of the assets and tracking its maintenace.
-				Through the system we expect to have a huge number of functionality to perform along with the supervisor.
-				THIS IS TO MAKE SURE THAT THERE ARE SOME CHANGES
+				&nbsp;&nbsp;&nbsp;Planned Maintenance Management System, is a computerized system designed to program 
+				and record all organization as well as to manage the assets and track its maintenance
+				This System generate a report detailing all maintenance and other works carried out on asset 
+					over a specific period of time. 
+				It records customers requests and can help the system administrator to program an asset inspection 
+					after a specific period of time. 
+				It provides a Frequent Asked Questions module, where a user can be directed to solve a particular 
+					problem facing without the intervention of the System Administrator.
+				Also this system performs different activities where by is capable to produce a full report concerning
+					the activities carried out in the organization which will be used for decision making 
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				
 				
 			</div>
 
@@ -25,7 +30,7 @@
 					<div class="panel-heading" align="center">Planned Maintenance</div>
 					<div class="panel-body" >
 						<ul class="announcements">
-						<li><a href="#">Announcement one</a></li>
+						<li>Announcement one</li>
 						<li><a href="#">Announcement two</a></li>
 						<li><a href="#">Announcement three</a></li>
 						<li><a href="#">Announcement four</a></li>
