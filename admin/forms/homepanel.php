@@ -1,7 +1,7 @@
 <div class="container">
-	<form name="form2" method="post" action="building.php">
+<form name="form2" method="post" action="building.php">
 <fieldset>
-	<legend> DASHBOARD </legend>	
+	<legend> ADMINISTRATOR </legend>	
 </fieldset>				
 </form>
 </div>

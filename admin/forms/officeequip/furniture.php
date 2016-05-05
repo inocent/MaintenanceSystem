@@ -2,7 +2,7 @@
 	<form name="form2" method="post" action="building.php">
 	<br><br>
 <fieldset>
-	<legend> Office Equipments </legend>	
+	<legend> Furnitures </legend>	
 </fieldset>				
 </form>
 </div>
