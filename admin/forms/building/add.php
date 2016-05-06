@@ -8,7 +8,7 @@
 </ul>
 <div class="tab-content">	
 	<div id="new" class="tab-pane fade">
-		<form class="form-horizontal well span4" action="controller.php?action=add" method="POST">
+		<form class="form-horizontal well span4" action="forms/building/controller.php?action=add" method="POST">
 			<fieldset>
 				<div class="form-group">
 					<div class="col-md-8">
@@ -119,15 +119,88 @@
 	</div>
 	
 	
-	
 	<div id="details" class="tab-pane fade">
+		<form class="form-horizontal well span4" action="controller.php?action=add" method="POST">
+		<fieldset>
+				<legend>Region :</legend>
+				<div class="form-group">
+					<div class="rows">
+						<div class="col-md-8">
+							<label class="col-md-4 control-label" for="clientName">Total Buildings:</label>
+							<div class="col-md-8">
+								<?php 
+									
+								?>
+								</div>
+						</div>
+					</div>
+					</div>
+					<div class="form-group">
+					<div class="rows">
+						<div class="col-md-8">
+							<label class="col-md-4 control-label" for="clientName">Total Rooms:</label>
+							<div class="col-md-8">
+								<?php 
+									
+								?>
+								</div>
+						</div>
+					</div>
+					</div>
+					<div class="form-group">
+					<div class="rows">
+						<div class="col-md-8">
+							<label class="col-md-4 control-label" for="clientName">Occupied Rooms:</label>
+							<div class="col-md-8">
+								<?php 
+									
+								?>
+								</div>
+						</div>
+					</div>
+					</div>
+					
+					<div class="form-group">
+					<div class="rows">
+						<div class="col-md-8">
+							<label class="col-md-4 control-label" for="clientName">Empty Rooms:</label>
+							<div class="col-md-8">
+								<?php 
+									
+								?>
+								</div>
+						</div>
+					</div>
+					</div
+					
+					<div class="form-group">
+					<div class="rows">
+						<div class="col-md-8">
+							<label class="col-md-4 control-label" for="clientName">Current Status :</label>
+							<div class="col-md-8">
+								<?php 
+									
+								?>
+								</div>
+						</div>
+					</div>
+					</div
+			</fieldset> 
+		</form>
+	</div>
+	
+	
+	
+	<div id="description" class="tab-pane fade">
+		<div class="container">
 			<div class="panel panel-primary">
 				<form class="form-horizontal well span4" action="controller.php?action=add" method="POST">
+					<form class="form-horizontal well span4" action="#.php" method="POST">
 						<fieldset>
-							<legend>Building Details :</legend>
+							<legend>Building Descriptions</legend>
 							<div class="form-group">
 								<div class="col-md-8">
-									<label class="col-md-4 control-label" for="building_id">Building Id :</label>
+									<label class="col-md-4 control-label" for="building_id">Building Id</label>
 									<div class="col-md-8">
 										<input name="deptid" type="hidden" value="">
 										<input class="form-control input-sm" id="building_id" name="building_id" placeholder="Building Id" type="text" value="">
@@ -136,7 +209,7 @@
 							</div>
 							<div class="form-group">
 								<div class="col-md-8">
-									<label class="col-md-4 control-label" for="name">Building Name :</label>
+									<label class="col-md-4 control-label" for="name">Building Name</label>
 									<div class="col-md-8">
 										<input name="deptid" type="hidden" value="">
 										<input class="form-control input-sm" id="name" name="name" placeholder="Building Name" type="text" value="">
@@ -144,79 +217,21 @@
 								</div>
 							</div>
 							<div class="form-group">
+								<label for="comment">Comment</label>
+								<textarea class="form-control" rows="5" id="comment"></textarea>
+							</div>
+							<div class="form-group">
 								<div class="col-md-8">
-									<label class="col-md-4 control-label" for="status">Status :</label>
+									<label class="col-md-4 control-label" for= "idno"></label>
 									<div class="col-md-8">
-										<div class="col-md-8">
-						<select class="form-control input-sm" name="marital" id="marital"  placeholder="Marital Status">
-							<option value=""></option>
-							<option value="Single">Single</option>
-							<option value="Married">Married</option>	
-							<option value="Married">Divorced</option>	
-						</select>	
-					</div>
-										
-										</div>
-										<br>
-										<div class="form-group">
-											<div class="col-md-8">
-												<label class="col-md-4 control-label" for= "idno"></label>
-												<div class="col-md-8">
-													<button class="btn btn-default" name="save" type="submit" ><span class="glyphicon glyphicon-floppy-save"></span> Save</button>
-												</div>
-											</div>
-										</div>
+										<button class="btn btn-default" name="save" type="submit" ><span class="glyphicon glyphicon-floppy-save"></span> Save</button>
 									</div>
 								</div>
-							</div>
+							</div>  
 						</fieldset> 
 					</form>
 				</div>
-		
-		
-		
-		<div id="description" class="tab-pane fade">
-			<div class="container">
-				<div class="panel panel-primary">
-					<form class="form-horizontal well span4" action="controller.php?action=add" method="POST">
-						<form class="form-horizontal well span4" action="#.php" method="POST">
-							<fieldset>
-								<legend>Building Descriptions</legend>
-								<div class="form-group">
-									<div class="col-md-8">
-										<label class="col-md-4 control-label" for="building_id">Building Id</label>
-										<div class="col-md-8">
-											<input name="deptid" type="hidden" value="">
-											<input class="form-control input-sm" id="building_id" name="building_id" placeholder="Building Id" type="text" value="">
-										</div>
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-md-8">
-										<label class="col-md-4 control-label" for="name">Building Name</label>
-										<div class="col-md-8">
-											<input name="deptid" type="hidden" value="">
-											<input class="form-control input-sm" id="name" name="name" placeholder="Building Name" type="text" value="">
-										</div>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="comment">Comment</label>
-									<textarea class="form-control" rows="5" id="comment"></textarea>
-								</div>
-								<div class="form-group">
-									<div class="col-md-8">
-										<label class="col-md-4 control-label" for= "idno"></label>
-										<div class="col-md-8">
-											<button class="btn btn-default" name="save" type="submit" ><span class="glyphicon glyphicon-floppy-save"></span> Save</button>
-										</div>
-									</div>
-								</div>  
-							</fieldset> 
-						</form>
-					</div>
-				</div>
-			</div>	
 			</div>
-			
-				
+		</div>	
+	</div>
+	
