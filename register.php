@@ -108,18 +108,10 @@
 					<input class="form-control input-sm" id="mobile" name="mobile" placeholder="Mobile" type="text" value="">
 				</div>
 			</div> <br /><br />
-			
-			<div class="col-md-8">
-				<label class="col-md-4 control-label" for="password">Password :</label>
-				<div class="col-md-8">
-					<input class="form-control input-sm" id="password" name="password" placeholder="Password" type="password" value="">
-				</div>
-			</div> <br /><br />
-	    
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for= "idno"></label>
                       <div class="col-md-8">
-                        <button class="btn btn-default" name="save" type="save" ><span class="glyphicon glyphicon-floppy-save"></span> Save</button>
+                        <button class="btn btn-default" name="save" type="save" ><span class="glyphicon glyphicon-floppy-save"></span> Submit</button>
                       </div>
                     </div>
 			</form>
