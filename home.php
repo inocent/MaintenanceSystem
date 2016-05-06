@@ -52,12 +52,17 @@
 					<div class="panel panel-info">
 					<div class="panel-heading" align="center">Comments And Feedbacks</div>
 					<div class="panel-body">
-						<ul class="announcements">
-						<li><a href="#">Announcement one</a></li>
-						<li><a href="#">Announcement two</a></li>
-						<li><a href="#">Announcement three</a></li>
-						<li><a href="#">Announcement four</a></li>
-						<ul>
+						<div class="container">
+      
+	  
+      <p>
+        <a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-envelope"></span> Send Comments <br> 
+		  and Feedback 
+        </a>
+      </p> 
+    </div>
+						
 						</div>
 					</div>
 	</div>
