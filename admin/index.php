@@ -1,7 +1,7 @@
 <?php
 require_once("../includes/initialize.php");
 	$content='home.php';
-	 $title=$_GET['Home'];
+	 //$title=$_GET['Home'];
 	$view = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
 	switch ($view) {
 	
@@ -10,7 +10,7 @@ require_once("../includes/initialize.php");
 		$content = 'calendar.php';		
 		break;
 		case '2' :
-	    $title=$_GET['Home'];	
+	    //$title=$_GET['Home'];	
 		$content = 'home.php';		
 		break;
 		
