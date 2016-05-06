@@ -20,9 +20,11 @@
 				window.location = "home.php";
 			</script>
 		<?php
+
 	}
-			
-	}
+
+		}
+
 	function studlogged_in() {
 		return isset($_SESSION['IDNO']);
         
