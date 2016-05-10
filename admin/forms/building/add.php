@@ -3,7 +3,7 @@
 	<br>
 	<li class="active"><a data-toggle="tab" href="#home"><strong>Buildings</strong></a></li>
 	<li><a data-toggle="tab" href="#new"><strong>Add New Building</strong></a></li>
-	<li><a data-toggle="tab" href="#details"><strong>Details</strong></a></li>
+	<li><a data-toggle="tab" href="#details"><strong>Maintenance</strong></a></li>
 	<li><a data-toggle="tab" href="#description"><strong>Description</strong></a></li>
 </ul>
 <div class="tab-content">	
@@ -135,74 +135,31 @@
 	</div>
 	
 	
-	<div id="details" class="tab-pane fade">
-		<form class="form-horizontal well span4" action="controller.php?action=add" method="POST">
-			<fieldset>
-				<legend>Region :</legend>
-				<div class="form-group">
-					<div class="rows">
-						<div class="col-md-8">
-							<label class="col-md-4 control-label" for="clientName">Total Buildings:</label>
-							<div class="col-md-8">
-								<?php 
-									
-								?>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="rows">
-						<div class="col-md-8">
-							<label class="col-md-4 control-label" for="clientName">Total Rooms:</label>
-							<div class="col-md-8">
-								<?php 
-									
-								?>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="rows">
-						<div class="col-md-8">
-							<label class="col-md-4 control-label" for="clientName">Occupied Rooms:</label>
-							<div class="col-md-8">
-								<?php 
-									
-								?>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="form-group">
-					<div class="rows">
-						<div class="col-md-8">
-							<label class="col-md-4 control-label" for="clientName">Empty Rooms:</label>
-							<div class="col-md-8">
-								<?php 
-									
-								?>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="form-group">
-					<div class="rows">
-						<div class="col-md-8">
-							<label class="col-md-4 control-label" for="clientName">Current Status :</label>
-							<div class="col-md-8">
-								<?php 
-									
-								?>
-							</div>
-						</div>
-					</div>
-				</div>
-			</fieldset> 
-		</form>
+	<div id="details" class="tab-pane fade"><br>
+		<fieldset>
+			<table class="table table-striped" cellspacing="0">
+				<thead>
+					<tr>
+						<th>No.</th>
+						<th>Preventive Maintenance</th>
+						<th>Corrective maintenance</th>
+						<th>Periodic maintenance (TBM)</th>
+						<th>Predictive maintenance</th>
+						<th>Breakdown maintenance</th>
+					</tr>	
+				</thead>
+				<tbody>
+					<?php
+						$building = new Building();
+						$buildingList = $building->listOfBuilding();
+						$number=1;
+						foreach ($buildingList as $list) {
+							
+						}
+					?>
+				</tbody>
+			</table> 
+		</fieldset> 
 	</div>
 	
 	
