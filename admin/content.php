@@ -1,8 +1,8 @@
 
-	<div class="col-md-2">
-		<!-- Assets Panel
-		<div class="panel-body active"><a href="#homepanel" data-toggle="tab">Admin Home</a></div>  -->
-		<div class="panel panel-info">
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <div class="panel panel-info">
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<a data-toggle="collapse" href="#collapse1">Assets</a>
@@ -10,8 +10,13 @@
 			</div>
 			<div id="collapse1" class="panel-collapse collapse">
 				<div class="panel-body"><a href="#building" data-toggle="tab">Buildings</a></div>
-				<div class="panel-body"><a href="#calender" data-toggle="tab">Calender</a></div>
-				<div class="panel-body"><a href="#fixture" data-toggle="tab">Fixtures</a></div>
+				<div class="panel-body"><a href="#furniture" data-toggle="tab">Furnitures</a></div>
+				 <div class="panel-body"><a href="#fixture" data-toggle="tab">Fixtures</a></div>
+				 <div class="panel-body"><a href="#labequip" data-toggle="tab">Lab. Equipments</a></div>
+				 <div class="panel-body"><a href="#component" data-toggle="tab">Components</a></div>
+				 <div class="panel-body"><a href="#vehicle" data-toggle="tab">Vehicles</a></div>
+				 <div class="panel-body"><a href="#officeequip" data-toggle="tab">Office Equipments</a></div>
+				 <div class="panel-body"><a href="#software" data-toggle="tab">Software</a></div>
 			</div>
 			
 			<div class="panel-heading">
@@ -21,10 +26,6 @@
 			</div>
 			<div id="collapse2" class="panel-collapse collapse">
 				<div class="panel-body">Panel Body</div>
-				<div class="panel-body">Panel Body</div>
-				<div class="panel-body">Panel Body</div>
-				<div class="panel-body">Panel Body</div>
-				
 			</div>
 			<div class="panel-heading">
 				<h4 class="panel-title">
@@ -33,10 +34,6 @@
 			</div>
 			<div id="collapse3" class="panel-collapse collapse">
 				<div class="panel-body">Panel Body</div>
-				<div class="panel-body">Panel Body</div>
-				<div class="panel-body">Panel Body</div>
-				<div class="panel-body">Panel Body</div>
-				
 			</div>
 			<div class="panel-heading">
 				<h4 class="panel-title">
@@ -51,7 +48,7 @@
 				<h4 class="panel-title">
 					<a data-toggle="collapse" href="#collapse5">Preventive Maintenance</a>
 				</h4>
-			</div>
+				</div>
 			
 			<div class="panel-heading">
 				<h4 class="panel-title">
@@ -110,9 +107,10 @@
 				
 			</div>
 		</div>
-	</div>
-	
-    <div class="tab-content">		
+    </div>
+
+    <div class="col-sm-10">
+          <div class="tab-content">		
     <div class="tab-pane fade in active" id="homepanel" style="background:white;height:1000px">
 		<div class="panel-body">
 			<div class="form-group">
@@ -122,15 +120,60 @@
 		</div>		
 		<div class="tab-pane fade" id="building" style="background:white;height:1000px">
 			<div class="panel-body">
-			   <?php require_once('forms/building.php'); ?>
+			   <?php require_once('forms/building/add.php'); ?>
 		</div>
 		</div>
-
+<div class="tab-pane fade" id="furniture" style="background:white;height:1000px">
+			<div class="panel-body">
+			   <?php require_once('forms/furniture/add.php'); ?>
+		</div>
+		</div>
 		<div class="tab-pane fade" id="fixture" style="background:white;height:1000px">
 			<div class="panel-body">
 				<div class="form-group">
-			   <?php require_once('forms/fixtures/fixture.php'); ?>
+			   <?php require_once('forms/fixture/add.php'); ?>
 			</div>
 		</div>
 		</div>	
-	</div></div>
+		
+		<div class="tab-pane fade" id="labequip" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/labequip/add.php'); ?>
+			</div>
+		</div>
+		</div>
+		<div class="tab-pane fade" id="component" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/component/add.php'); ?>
+			</div>
+		</div>
+		</div>
+		<div class="tab-pane fade" id="vehicle" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/vehicle/add.php'); ?>
+			</div>
+		</div>
+		</div>
+		<div class="tab-pane fade" id="officeequip" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/officeequip/add.php'); ?>
+			</div>
+		</div>
+		</div>
+		<div class="tab-pane fade" id="software" style="background:white;height:1000px">
+			<div class="panel-body">
+				<div class="form-group">
+			   <?php require_once('forms/software/add.php'); ?>
+			</div>
+		</div>
+		</div>
+		
+		
+		
+	</div>
+  </div>
+</div>

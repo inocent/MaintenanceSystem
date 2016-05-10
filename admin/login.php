@@ -8,10 +8,10 @@
 	<script type="text/javascript">
 		window.location = "<?php echo WEB_ROOT; ?>admin/index.php?page=2";
 	</script>
-	<?php
+	<?php mysql_error();
 	}
 ?>
-
+  
 <?php
 	if (isset($_POST['btnlogin'])) {
 		//form has been submitted1

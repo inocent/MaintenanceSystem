@@ -1,7 +1,4 @@
 
-</head>
-<body>
-
 <div class="container-fluid">
   <div class="row content">
     <div class="col-sm-2 sidenav">
@@ -32,14 +29,6 @@
 			</div>
 			<div class="panel-heading">
 				<h4 class="panel-title">
-					<a data-toggle="collapse" href="#collapse3">Components</a>
-				</h4>
-			</div>
-			<div id="collapse3" class="panel-collapse collapse">
-				<div class="panel-body">Panel Body</div>
-			</div>
-			<div class="panel-heading">
-				<h4 class="panel-title">
 					<a data-toggle="collapse" href="#collapse4">Contacts</a>
 				</h4>
 			</div>
@@ -51,7 +40,7 @@
 				<h4 class="panel-title">
 					<a data-toggle="collapse" href="#collapse5">Preventive Maintenance</a>
 				</h4>
-			</div>
+				</div>
 			
 			<div class="panel-heading">
 				<h4 class="panel-title">

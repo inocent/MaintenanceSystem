@@ -33,16 +33,27 @@ switch ($action) {
 	
 function doInsert(){
 		if (isset($_POST['save'])){
-$AssetName  = $_POST['name'];
+$Name  = $_POST['name'];
 $type = $_POST['type'];
-$total = $_POST['room'];
+$total_rooms = $_POST['room'];
+$empty_rooms = $_POST['eroom'];
+$occupied_rooms = $_POST['oroom'];
+$region = $_POST['region'];
+$campus = $_POST['campus'];
+$status = $_POST['status'];
 
 
 $building = new Building();
 $building->building_type = $type ;
-$building->total_rooms = $total;
-$building->name	= $AssetName;
+$building->total_rooms = $total_rooms;
+$building->empty_rooms = $empty_rooms;
+$building->occupied_rooms = $occupied_rooms;
+$building->name	= $Name;
+$building->Region	= $region;
+$building->campus	= $campus;
+$building->status	= $status;
 }
+/*
 
 if ($AssetName  == "") {
 	message('Asset Name is required!', "error");
@@ -53,10 +64,11 @@ if ($AssetName  == "") {
 }elseif ($total == "") {
 	message('Total Rooms is required!', "error");
 	redirect ('index.php?page=add');
-}
+}*/
+
    $building->create(); 
 	message('New building addedd successfully!', "success");
-	redirect('index.php?view=list');	
+	redirect('../../index.php?page=2');	
 }
 
 ?>

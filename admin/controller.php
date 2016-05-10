@@ -50,7 +50,7 @@ $user->user_middle_name = $middleName;
 $user->user_last_name = $lastName;
 $user->user_gender = $gender;
 $user->user_depart_id = $department;
-$user->user_type= $title;
+$user->user_type = $title;
 $user->user_password = $password;
 print_r($user);
   
