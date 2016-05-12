@@ -41,8 +41,8 @@ $department  = $_POST['department'];
 $title  = $_POST['title'];
 $password = $_POST['password'];
 
-echo $firstName ;
-echo $middleName ;
+//echo $firstName ;
+//echo $middleName ;
 
 $user = new User();
 $user->user_first_name = $firstName;
