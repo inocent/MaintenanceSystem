@@ -10,7 +10,7 @@
             <div class="panel-body" >
 				
                 <form name="form" id="form" class="form-horizontal" enctype="multipart/form-data" method="POST" action="login.php">
-					
+					<br>
                     <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                         <input id="user" type="text" class="form-control" name="uname" value="" placeholder="User">                                        
